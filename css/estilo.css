@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    padding: 10px;
+    background-image: linear-gradient(#011d38,#011d32,#011d32,#012d32,#013d42);
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    box-shadow: 2px 2px 2px #011d32;
+}
+legend{
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.container-box{
+    display: flex;
+    text-align: center;
+    align-items:center;
+     /* border: 1px solid red;  */
+}
+.content{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 3px #011d32;
+    cursor: pointer;
+}
+.conteudo{
+    padding: 7px;
+    display: block;
+    width: 290px;
+    height: 360px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.conteudo input{
+    color: rgb(0, 0, 0);
+    outline: none;
+    padding: 17px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius:10px;
+}
+.num{
+    width: 64px;
+    height: 67px;
+}
+.textcalc{
+    width: 200px;
+    height: 67px;
+    padding: 17px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.textcalc1{
+    padding: 17px;
+    width: 64px;
+    height: 67px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 0;
+}
+.maincolor{
+    display: inline-block;
+    background-color: #DDD;
+}
+.blue{
+    background-color: #0cd0cd;
+}
+.pin{
+    background-color:#cf1596;
+}
+.gre{
+    background-color:#aad800;
+}
+.pur{
+    background-color:#8c52ff;
+}
+.ora{
+    background-color:#fcb707;
+}
+
+
